@@ -2,20 +2,22 @@
 # yarn lockfile v1
 
 
-"@nexes/mongo-knex@0.3.0":
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/@nexes/mongo-knex/-/mongo-knex-0.3.0.tgz#e0078f8ddf7fcd4d907fe5cf2390644218753cf0"
-  dependencies:
-    debug "^4.1.0"
-    lodash "^4.17.10"
-
-"@nexes/mongo-utils@0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@nexes/mongo-utils/-/mongo-utils-0.2.0.tgz#28b483e88f2433ee269aa6b91f7339b7ab1e7d45"
+"@nexes/mongo-utils@0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@nexes/mongo-utils/-/mongo-utils-0.2.1.tgz#746d004fc17741b50e945d76e9ab53496ffab15b"
+  integrity sha512-g/8IpnxldGbog3yTwZg1tD+6zRLbGmYDkotZiDg3O5eLxQxNXZzoP0lmv4DDfPU1Bc8sh9JlSjt+xPrOoXlIXw==
   dependencies:
     bluebird "^3.5.3"
     ghost-ignition "^2.9.6"
     lodash "^4.17.11"
+
+"@pollbox/mongo-knex@0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@pollbox/mongo-knex/-/mongo-knex-0.3.0.tgz#73f9024797a14232f55b555ce02828de3dd7b268"
+  integrity sha512-ntcH2f42SBhwBMKJxIUQwNrTdLnSR8fGvKkbq+NRnUFrOZ9hLzbCQvTsu47Bmk0Kjm8iw3pY5r6oxgWvJ747dg==
+  dependencies:
+    debug "^4.1.0"
+    lodash "^4.17.10"
 
 "@pollbox/nql-lang@0.0.1":
   version "0.0.1"
