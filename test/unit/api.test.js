@@ -1,5 +1,4 @@
 require('../utils');
-
 const mingo = require('mingo');
 const nqlLang = require('@pollbox/nql-lang');
 const nql = require('../../lib/nql');
@@ -40,6 +39,7 @@ describe('Public API', function () {
     });
     it('Basic API works as expected', function () {
         const query = nql('title:%\'%中国小子%\'');
+        console.log(query.toString());
         console.log(query.querySQL(knex('posts')).toQuery());
     });
 
