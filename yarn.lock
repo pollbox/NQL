@@ -17,9 +17,10 @@
     ghost-ignition "^2.9.6"
     lodash "^4.17.11"
 
-"@nexes/nql-lang@0.0.1":
+"@pollbox/nql-lang@0.0.1":
   version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@nexes/nql-lang/-/nql-lang-0.0.1.tgz#a13c023873f9bc11b9e4e284449c6cfbeccc8011"
+  resolved "https://registry.yarnpkg.com/@pollbox/nql-lang/-/nql-lang-0.0.1.tgz#8209718bd25c25e65f7e758c1a4eb8322cba97f6"
+  integrity sha512-TjvqL3k5heAjRpjoxnJzAssN0vVqT0Aw0Gxj5Agjg9R7yz5b7GJaw7bnPtwY4U5LjyZWt3A1EAsgtkVI7eyyeQ==
 
 "@sinonjs/formatio@^2.0.0":
   version "2.0.0"

@@ -1,7 +1,7 @@
 require('../utils');
 
 const mingo = require('mingo');
-const nqlLang = require('@nexes/nql-lang');
+const nqlLang = require('@pollbox/nql-lang');
 const nql = require('../../lib/nql');
 const knex = require('knex')({client: 'mysql'});
 const sandbox = sinon.sandbox.create();
@@ -37,6 +37,10 @@ describe('Public API', function () {
         query.queryJSON({id: 3, name: 'kate'}).should.be.true();
 
         query.querySQL(knex('posts')).toQuery().should.eql('select * from `posts` where `posts`.`id` = 3');
+    });
+    it('Basic API works as expected', function () {
+        const query = nql('title:%\'%中国小子%\'');
+        console.log(query.querySQL(knex('posts')).toQuery());
     });
 
     it('ensure multiple nql instances', function () {
